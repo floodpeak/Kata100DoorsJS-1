@@ -1,7 +1,7 @@
 import {expect} from 'chai'
 
 describe('100 doors', ()=>{
-  it('should be true for true', ()=>{
-    expect(true).to.be.true
+  it('should be open for #1', ()=>{
+    expect(getDoorState(1)).to.be.true
   })
 })
