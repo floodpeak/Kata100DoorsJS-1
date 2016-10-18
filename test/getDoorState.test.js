@@ -8,4 +8,7 @@ describe('100 doors', ()=>{
   it('should be closed for #2', ()=>{
     expect(getDoorState(2)).to.be.false
   })
+  it('should be open for #3', ()=>{
+    expect(getDoorState(3)).to.be.false
+  })
 })
